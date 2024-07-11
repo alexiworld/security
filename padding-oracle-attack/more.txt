@@ -1,0 +1,67 @@
+https://www.youtube.com/watch?v=uDHo-UAM6_4
+
+https://paddingoracle.github.io/
+
+https://www.youtube.com/watch?v=4EgD4PEatA8
+
+function* range(start, end) {
+    for (let i = start; i <= end; i++) {
+        yield i;
+    }
+}
+
+function toHexString(b) {
+    if(b>15)
+        return (b & 0xFF).toString(16)
+    else
+        return '0'+(b & 0xFF).toString(16)
+}
+
+$('.init-vector-input-16').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-16').val(toHexString(parseInt($('.init-vector-input-16').val(),16)+delta)); update();
+} );
+$('.init-vector-input-15').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-15').val(toHexString(parseInt($('.init-vector-input-15').val(),16)+delta)); update();
+} );
+$('.init-vector-input-14').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-14').val(toHexString(parseInt($('.init-vector-input-14').val(),16)+delta)); update();
+} );
+$('.init-vector-input-13').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-13').val(toHexString(parseInt($('.init-vector-input-13').val(),16)+delta)); update();
+} );
+$('.init-vector-input-12').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-12').val(toHexString(parseInt($('.init-vector-input-12').val(),16)+delta)); update();
+} );
+$('.init-vector-input-11').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-11').val(toHexString(parseInt($('.init-vector-input-11').val(),16)+delta)); update();
+} );
+$('.init-vector-input-10').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-10').val(toHexString(parseInt($('.init-vector-input-10').val(),16)+delta)); update();
+} );
+$('.init-vector-input-9').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-9').val(toHexString(parseInt($('.init-vector-input-9').val(),16)+delta)); update();
+} );
+$('.init-vector-input-8').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-8').val(toHexString(parseInt($('.init-vector-input-8').val(),16)+delta)); update();
+} );
+$('.init-vector-input-7').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-7').val(toHexString(parseInt($('.init-vector-input-7').val(),16)+delta)); update();
+} );
+$('.init-vector-input-6').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-6').val(toHexString(parseInt($('.init-vector-input-6').val(),16)+delta)); update();
+} );
+$('.init-vector-input-5').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-5').val(toHexString(parseInt($('.init-vector-input-5').val(),16)+delta)); update();
+} );
+$('.init-vector-input-4').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-4').val(toHexString(parseInt($('.init-vector-input-4').val(),16)+delta)); update();
+} );
+$('.init-vector-input-3').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-3').val(toHexString(parseInt($('.init-vector-input-3').val(),16)+delta)); update();
+} );
+$('.init-vector-input-2').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-2').val(toHexString(parseInt($('.init-vector-input-2').val(),16)+delta)); update();
+} );
+$('.init-vector-input-1').on( "keydown", function() { let delta = 0; if (event.which == 40) {delta = -1 } else if (event.which == 38) {delta = +1};
+  $('.init-vector-input-1').val(toHexString(parseInt($('.init-vector-input-1').val(),16)+delta)); update();
+} );
